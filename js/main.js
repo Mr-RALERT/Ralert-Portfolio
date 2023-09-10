@@ -17,3 +17,22 @@ ulSide.forEach((li) => {
         }
     })
 })
+
+
+
+// Start Boxes Projects 
+
+
+let boxesProject = document.querySelectorAll(".projects .box");
+
+boxesProject.forEach((box) => {
+    box.addEventListener("click",(e) => {
+        if (e.target.dataset.link) {
+            window.open(e.target.dataset.link)
+        }else {
+            window.open(e.target.parentElement.dataset.link)
+        }
+    })
+})
+
+
