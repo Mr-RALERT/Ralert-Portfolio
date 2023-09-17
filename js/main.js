@@ -6,7 +6,6 @@ let ulSide = document.querySelectorAll(".page .side-bar ul li");
 
 
 
-
 ulSide.forEach((li) => {
     li.addEventListener("click",(e) => {
         if (e.target.dataset.tp) {
@@ -17,11 +16,10 @@ ulSide.forEach((li) => {
     })
 })
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 750de5df8100ce3c422f8a1df48a8251842009ef
+
+
 // Start Boxes Projects 
 
 
@@ -41,7 +39,7 @@ boxesProject.forEach((box) => {
 
 
 
-<<<<<<< HEAD
+
 
 // Start Setting Box :
 let settingBox = document.querySelector(".setting-box");
@@ -157,5 +155,5 @@ window.onload = function () {
         
 
 
-=======
->>>>>>> 750de5df8100ce3c422f8a1df48a8251842009ef
+
+
