@@ -10,15 +10,18 @@ let ulSide = document.querySelectorAll(".page .side-bar ul li");
 ulSide.forEach((li) => {
     li.addEventListener("click",(e) => {
         if (e.target.dataset.tp) {
-            window.open(`../${e.target.dataset.tp}`,"_self")
+            window.open(`../Ralert-Portfolio/${e.target.dataset.tp}`,"_self")
         }else {
-            window.open(`../${e.target.parentElement.dataset.tp}`,"_self")
+            window.open(`../Ralert-Portfolio/${e.target.parentElement.dataset.tp}`,"_self")
         }
     })
 })
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 750de5df8100ce3c422f8a1df48a8251842009ef
 // Start Boxes Projects 
 
 
@@ -38,6 +41,7 @@ boxesProject.forEach((box) => {
 
 
 
+<<<<<<< HEAD
 
 // Start Setting Box :
 let settingBox = document.querySelector(".setting-box");
@@ -153,3 +157,5 @@ window.onload = function () {
         
 
 
+=======
+>>>>>>> 750de5df8100ce3c422f8a1df48a8251842009ef
