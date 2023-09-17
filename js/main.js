@@ -87,7 +87,7 @@ let wallpaper = document.querySelectorAll(".setting-box .setting-container .box 
 
 wallpaper.forEach((img) => {
     img.addEventListener("click",() => {
-        document.body.style.cssText = `background-image : url(../images/${img.dataset.na});`
+        document.body.style.cssText = `background-image : url(https://mr-ralert.github.io/Ralert-Portfolio/images/${img.dataset.na});`
         window.localStorage.setItem("back",img.dataset.na)
     })
 })
