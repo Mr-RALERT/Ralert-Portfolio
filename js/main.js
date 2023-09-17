@@ -147,7 +147,7 @@ window.onload = function () {
             })
         }
         if (window.localStorage.getItem("back")) {
-            document.body.style.cssText = `background-image : url(../images/${window.localStorage.getItem("back")});`
+            document.body.style.cssText = `background-image : url(https://mr-ralert.github.io/Ralert-Portfolio/images/${window.localStorage.getItem("back")});`
         }
     }
 }
